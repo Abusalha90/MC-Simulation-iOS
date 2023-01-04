@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE15B25029459C2300BF1ECC /* Criticality.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B24F29459C2300BF1ECC /* Criticality.swift */; };
+		AE15B25229459C6F00BF1ECC /* NeutronModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B25129459C6F00BF1ECC /* NeutronModel.swift */; };
+		AE15B2542946186A00BF1ECC /* CriticalityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B2532946186A00BF1ECC /* CriticalityView.swift */; };
+		AE2524A429532D46000B7A22 /* cleaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2524A329532D46000B7A22 /* cleaning.swift */; };
+		AE2524A6295418C5000B7A22 /* RegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2524A5295418C5000B7A22 /* RegionView.swift */; };
+		AE2524A82955C657000B7A22 /* GeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2524A72955C657000B7A22 /* GeometryView.swift */; };
+		AE2524AA2955C6D9000B7A22 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2524A92955C6D9000B7A22 /* ChartsView.swift */; };
+		AE3878B22962D6020020D488 /* Visualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3878B12962D6010020D488 /* Visualization.swift */; };
+		AE57416B2917F98D0008B7E1 /* MonteCarloSimulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57416A2917F98D0008B7E1 /* MonteCarloSimulationApp.swift */; };
+		AE57416D2917F98D0008B7E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57416C2917F98D0008B7E1 /* ContentView.swift */; };
+		AE57416F2917F98F0008B7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE57416E2917F98F0008B7E1 /* Assets.xcassets */; };
+		AE5741722917F98F0008B7E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5741712917F98F0008B7E1 /* Preview Assets.xcassets */; };
+		AE5741792917F99C0008B7E1 /* fluxEstimationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5741782917F99C0008B7E1 /* fluxEstimationClass.swift */; };
+		AE811415291B56FA00751F5F /* InteractionEstimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811414291B56FA00751F5F /* InteractionEstimation.swift */; };
+		AEB5B5DF292C758400472F24 /* Surge in Frameworks */ = {isa = PBXBuildFile; productRef = AEB5B5DE292C758400472F24 /* Surge */; };
+		AEB5B5E1292C75BD00472F24 /* ImpliciteCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5B5E0292C75BD00472F24 /* ImpliciteCapture.swift */; };
+		AEFF59A1292DCC790088EDE2 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF59A0292DCC790088EDE2 /* ResultsView.swift */; };
+		AEFF59A3292E38340088EDE2 /* AllResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF59A2292E38340088EDE2 /* AllResults.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE15B24F29459C2300BF1ECC /* Criticality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Criticality.swift; sourceTree = "<group>"; };
+		AE15B25129459C6F00BF1ECC /* NeutronModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutronModel.swift; sourceTree = "<group>"; };
+		AE15B2532946186A00BF1ECC /* CriticalityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriticalityView.swift; sourceTree = "<group>"; };
+		AE2524A329532D46000B7A22 /* cleaning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleaning.swift; sourceTree = "<group>"; };
+		AE2524A5295418C5000B7A22 /* RegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionView.swift; sourceTree = "<group>"; };
+		AE2524A72955C657000B7A22 /* GeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryView.swift; sourceTree = "<group>"; };
+		AE2524A92955C6D9000B7A22 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		AE3878B12962D6010020D488 /* Visualization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visualization.swift; sourceTree = "<group>"; };
+		AE5741672917F98D0008B7E1 /* MonteCarloSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonteCarloSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE57416A2917F98D0008B7E1 /* MonteCarloSimulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloSimulationApp.swift; sourceTree = "<group>"; };
+		AE57416C2917F98D0008B7E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE57416E2917F98F0008B7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE5741712917F98F0008B7E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE5741782917F99C0008B7E1 /* fluxEstimationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fluxEstimationClass.swift; sourceTree = "<group>"; };
+		AE811414291B56FA00751F5F /* InteractionEstimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionEstimation.swift; sourceTree = "<group>"; };
+		AEB5B5E0292C75BD00472F24 /* ImpliciteCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpliciteCapture.swift; sourceTree = "<group>"; };
+		AEFF59A0292DCC790088EDE2 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		AEFF59A2292E38340088EDE2 /* AllResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllResults.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5741642917F98D0008B7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB5B5DF292C758400472F24 /* Surge in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE57415E2917F98D0008B7E1 = {
+			isa = PBXGroup;
+			children = (
+				AE5741692917F98D0008B7E1 /* MonteCarloSimulation */,
+				AE5741682917F98D0008B7E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5741682917F98D0008B7E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE5741672917F98D0008B7E1 /* MonteCarloSimulation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5741692917F98D0008B7E1 /* MonteCarloSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				AE57416A2917F98D0008B7E1 /* MonteCarloSimulationApp.swift */,
+				AEFF59A5292F0FC60088EDE2 /* Views */,
+				AEFF59A4292F0FB90088EDE2 /* Models */,
+				AE57416E2917F98F0008B7E1 /* Assets.xcassets */,
+				AE5741702917F98F0008B7E1 /* Preview Content */,
+			);
+			path = MonteCarloSimulation;
+			sourceTree = "<group>";
+		};
+		AE5741702917F98F0008B7E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE5741712917F98F0008B7E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEFF59A4292F0FB90088EDE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE5741782917F99C0008B7E1 /* fluxEstimationClass.swift */,
+				AE811414291B56FA00751F5F /* InteractionEstimation.swift */,
+				AEB5B5E0292C75BD00472F24 /* ImpliciteCapture.swift */,
+				AE15B24F29459C2300BF1ECC /* Criticality.swift */,
+				AE2524A329532D46000B7A22 /* cleaning.swift */,
+				AE15B25129459C6F00BF1ECC /* NeutronModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEFF59A5292F0FC60088EDE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE57416C2917F98D0008B7E1 /* ContentView.swift */,
+				AE15B2532946186A00BF1ECC /* CriticalityView.swift */,
+				AE2524A92955C6D9000B7A22 /* ChartsView.swift */,
+				AE3878B12962D6010020D488 /* Visualization.swift */,
+				AE2524A72955C657000B7A22 /* GeometryView.swift */,
+				AE2524A5295418C5000B7A22 /* RegionView.swift */,
+				AEFF59A0292DCC790088EDE2 /* ResultsView.swift */,
+				AEFF59A2292E38340088EDE2 /* AllResults.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE5741662917F98D0008B7E1 /* MonteCarloSimulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5741752917F98F0008B7E1 /* Build configuration list for PBXNativeTarget "MonteCarloSimulation" */;
+			buildPhases = (
+				AE5741632917F98D0008B7E1 /* Sources */,
+				AE5741642917F98D0008B7E1 /* Frameworks */,
+				AE5741652917F98D0008B7E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonteCarloSimulation;
+			packageProductDependencies = (
+				AEB5B5DE292C758400472F24 /* Surge */,
+			);
+			productName = MonteCarloSimulation;
+			productReference = AE5741672917F98D0008B7E1 /* MonteCarloSimulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE57415F2917F98D0008B7E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AE5741662917F98D0008B7E1 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AE5741622917F98D0008B7E1 /* Build configuration list for PBXProject "MonteCarloSimulation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE57415E2917F98D0008B7E1;
+			packageReferences = (
+				AEB5B5DD292C758400472F24 /* XCRemoteSwiftPackageReference "Surge" */,
+			);
+			productRefGroup = AE5741682917F98D0008B7E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5741662917F98D0008B7E1 /* MonteCarloSimulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5741652917F98D0008B7E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5741722917F98F0008B7E1 /* Preview Assets.xcassets in Resources */,
+				AE57416F2917F98F0008B7E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE5741632917F98D0008B7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE15B2542946186A00BF1ECC /* CriticalityView.swift in Sources */,
+				AE57416D2917F98D0008B7E1 /* ContentView.swift in Sources */,
+				AEFF59A1292DCC790088EDE2 /* ResultsView.swift in Sources */,
+				AE5741792917F99C0008B7E1 /* fluxEstimationClass.swift in Sources */,
+				AE57416B2917F98D0008B7E1 /* MonteCarloSimulationApp.swift in Sources */,
+				AEB5B5E1292C75BD00472F24 /* ImpliciteCapture.swift in Sources */,
+				AE2524A6295418C5000B7A22 /* RegionView.swift in Sources */,
+				AE2524AA2955C6D9000B7A22 /* ChartsView.swift in Sources */,
+				AE15B25029459C2300BF1ECC /* Criticality.swift in Sources */,
+				AE15B25229459C6F00BF1ECC /* NeutronModel.swift in Sources */,
+				AE2524A429532D46000B7A22 /* cleaning.swift in Sources */,
+				AE811415291B56FA00751F5F /* InteractionEstimation.swift in Sources */,
+				AEFF59A3292E38340088EDE2 /* AllResults.swift in Sources */,
+				AE2524A82955C657000B7A22 /* GeometryView.swift in Sources */,
+				AE3878B22962D6020020D488 /* Visualization.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE5741732917F98F0008B7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE5741742917F98F0008B7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE5741762917F98F0008B7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonteCarloSimulation/Preview Content\"";
+				DEVELOPMENT_TEAM = H839SGFVQT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.abusalha.MCSimulation.MonteCarloSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE5741772917F98F0008B7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonteCarloSimulation/Preview Content\"";
+				DEVELOPMENT_TEAM = H839SGFVQT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.abusalha.MCSimulation.MonteCarloSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE5741622917F98D0008B7E1 /* Build configuration list for PBXProject "MonteCarloSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5741732917F98F0008B7E1 /* Debug */,
+				AE5741742917F98F0008B7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5741752917F98F0008B7E1 /* Build configuration list for PBXNativeTarget "MonteCarloSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5741762917F98F0008B7E1 /* Debug */,
+				AE5741772917F98F0008B7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AEB5B5DD292C758400472F24 /* XCRemoteSwiftPackageReference "Surge" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Jounce/Surge.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AEB5B5DE292C758400472F24 /* Surge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEB5B5DD292C758400472F24 /* XCRemoteSwiftPackageReference "Surge" */;
+			productName = Surge;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AE57415F2917F98D0008B7E1 /* Project object */;
+}
