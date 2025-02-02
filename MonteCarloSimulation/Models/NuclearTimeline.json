@@ -1,0 +1,116 @@
+{
+  "title": "Key Events in Nuclear History",
+  "description": "A detailed timeline of major scientific, technological, and policy milestones in the history of nuclear energy and science.",
+  "events": [
+    {
+      "year": 1896,
+      "title": "Discovery of Radioactivity",
+      "description": "Henri Becquerel discovers radioactivity while studying phosphorescence in uranium salts, laying the foundation for nuclear science."
+    },
+    {
+      "year": 1898,
+      "title": "Radium and Polonium Discovered",
+      "description": "Marie and Pierre Curie isolate radium and polonium, advancing the understanding of radioactive materials."
+    },
+    {
+      "year": 1911,
+      "title": "Structure of the Atom",
+      "description": "Ernest Rutherford proposes the nuclear model of the atom, identifying the dense, positively charged nucleus."
+    },
+    {
+      "year": 1932,
+      "title": "Discovery of the Neutron",
+      "description": "James Chadwick discovers the neutron, a key component of atomic nuclei, enabling further advancements in nuclear research."
+    },
+    {
+      "year": 1938,
+      "title": "Nuclear Fission Identified",
+      "description": "Lise Meitner, Otto Hahn, and Fritz Strassmann discover the process of nuclear fission, demonstrating the splitting of atomic nuclei."
+    },
+    {
+      "year": 1942,
+      "title": "First Controlled Chain Reaction",
+      "description": "Enrico Fermi and his team achieve the first controlled nuclear chain reaction at the University of Chicago."
+    },
+    {
+      "year": 1945,
+      "title": "Atomic Bombings of Hiroshima and Nagasaki",
+      "description": "The United States drops atomic bombs on Hiroshima and Nagasaki, demonstrating the devastating power of nuclear weapons."
+    },
+    {
+      "year": 1945,
+      "title": "Manhattan Project Completed",
+      "description": "The Manhattan Project develops the first nuclear weapons, marking the beginning of the nuclear age."
+    },
+    {
+      "year": 1951,
+      "title": "First Nuclear Power Generated",
+      "description": "The Experimental Breeder Reactor I (EBR-I) in Idaho produces electricity using nuclear energy for the first time."
+    },
+    {
+      "year": 1954,
+      "title": "Launch of the USS Nautilus",
+      "description": "The USS Nautilus becomes the first nuclear-powered submarine, demonstrating the potential of nuclear energy for propulsion in January 1954."
+    },
+    {
+      "year": 1954,
+      "title": "First Nuclear Power Plant",
+      "description": "The Obninsk Nuclear Power Plant became the first to generate electricity in June 1954."
+    },
+    {
+      "year": 1957,
+      "title": "Establishment of the IAEA",
+      "description": "The International Atomic Energy Agency (IAEA) is founded to promote peaceful uses of nuclear energy and ensure nonproliferation."
+    },
+    {
+      "year": 1957,
+      "title": "Windscale Reactor Fire",
+      "description": "The first major nuclear reactor accident occurs in the UK, highlighting the importance of reactor safety."
+    },
+    {
+      "year": 1979,
+      "title": "Three Mile Island Accident",
+      "description": "A partial meltdown occurs at the Three Mile Island nuclear power plant in Pennsylvania, USA, raising concerns about nuclear safety."
+    },
+    {
+      "year": 1986,
+      "title": "Chernobyl Disaster",
+      "description": "The catastrophic explosion of Reactor 4 at the Chernobyl nuclear power plant in Ukraine causes widespread radioactive contamination."
+    },
+    {
+      "year": 1996,
+      "title": "CTBT Opened for Signature",
+      "description": "The Comprehensive Nuclear-Test-Ban Treaty (CTBT) is introduced to prohibit nuclear explosions globally."
+    },
+    {
+      "year": 2011,
+      "title": "Fukushima Daiichi Nuclear Disaster",
+      "description": "A tsunami triggered by an earthquake causes a meltdown at the Fukushima Daiichi plant in Japan, reigniting global nuclear safety concerns."
+    },
+    {
+      "year": 2015,
+      "title": "Iran Nuclear Deal",
+      "description": "The Joint Comprehensive Plan of Action (JCPOA) is signed, limiting Iran's nuclear activities in exchange for sanctions relief."
+    },
+    {
+      "year": 2017,
+      "title": "ICAN Wins Nobel Peace Prize",
+      "description": "The International Campaign to Abolish Nuclear Weapons (ICAN) is recognized for efforts to achieve the Treaty on the Prohibition of Nuclear Weapons."
+    },
+    {
+      "year": 2020,
+      "title": "SMR Development",
+      "description": "Small Modular Reactors (SMRs) gained significant traction as a safer alternative."
+    },
+    {
+      "year": 2021,
+      "title": "Nuclear Fusion Milestone",
+      "description": "The National Ignition Facility achieves a major breakthrough in inertial confinement fusion, advancing the quest for fusion energy."
+    },
+    {
+      "year": 2023,
+      "title": "SMRs Begin Deployment",
+      "description": "Small Modular Reactors (SMRs) are commercially deployed, offering a flexible and scalable approach to nuclear power generation."
+    }
+  ]
+}

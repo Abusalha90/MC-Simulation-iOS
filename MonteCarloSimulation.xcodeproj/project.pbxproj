@@ -10,42 +10,132 @@
 		AE15B25029459C2300BF1ECC /* Criticality.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B24F29459C2300BF1ECC /* Criticality.swift */; };
 		AE15B25229459C6F00BF1ECC /* NeutronModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B25129459C6F00BF1ECC /* NeutronModel.swift */; };
 		AE15B2542946186A00BF1ECC /* CriticalityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B2532946186A00BF1ECC /* CriticalityView.swift */; };
-		AE2524A429532D46000B7A22 /* cleaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2524A329532D46000B7A22 /* cleaning.swift */; };
 		AE2524A6295418C5000B7A22 /* RegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2524A5295418C5000B7A22 /* RegionView.swift */; };
 		AE2524A82955C657000B7A22 /* GeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2524A72955C657000B7A22 /* GeometryView.swift */; };
 		AE2524AA2955C6D9000B7A22 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2524A92955C6D9000B7A22 /* ChartsView.swift */; };
 		AE3878B22962D6020020D488 /* Visualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3878B12962D6010020D488 /* Visualization.swift */; };
+		AE4AAB0E2D393495004CCAE7 /* ARExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB0D2D393495004CCAE7 /* ARExtensions.swift */; };
+		AE4AAB102D3934F9004CCAE7 /* VirtualObjectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB0F2D3934F9004CCAE7 /* VirtualObjectNode.swift */; };
+		AE4AAB122D39350A004CCAE7 /* SCNNodeExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB112D39350A004CCAE7 /* SCNNodeExt.swift */; };
+		AE4AAB142D393526004CCAE7 /* SceneKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB132D393526004CCAE7 /* SceneKitUtils.swift */; };
+		AE4AAB192D3A258E004CCAE7 /* ButtonGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB182D3A258E004CCAE7 /* ButtonGridView.swift */; };
+		AE4AAB1D2D3A4101004CCAE7 /* ZoomNavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB1C2D3A4101004CCAE7 /* ZoomNavigationButton.swift */; };
+		AE4AAB442D42242F004CCAE7 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB432D42242F004CCAE7 /* OpenAI */; };
+		AE4AAB462D42272F004CCAE7 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB452D42272A004CCAE7 /* ChatViewModel.swift */; };
+		AE4AAB482D422BCA004CCAE7 /* secretkey.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */; };
+		AE4AAB4E2D43458F004CCAE7 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB4D2D43458F004CCAE7 /* ChatView.swift */; };
+		AE4AAB502D4345A8004CCAE7 /* CommunityChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB4F2D4345A8004CCAE7 /* CommunityChatView.swift */; };
+		AE4AAB552D434764004CCAE7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB542D434764004CCAE7 /* FirebaseAnalytics */; };
+		AE4AAB572D434764004CCAE7 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB562D434764004CCAE7 /* FirebaseAppCheck */; };
+		AE4AAB592D434764004CCAE7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB582D434764004CCAE7 /* FirebaseAuth */; };
+		AE4AAB5B2D434764004CCAE7 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB5A2D434764004CCAE7 /* FirebaseCore */; };
+		AE4AAB5D2D434764004CCAE7 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB5C2D434764004CCAE7 /* FirebaseDynamicLinks */; };
+		AE4AAB5F2D434764004CCAE7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB5E2D434764004CCAE7 /* FirebaseFirestore */; };
+		AE4AAB612D434764004CCAE7 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB602D434764004CCAE7 /* FirebaseFirestoreCombine-Community */; };
+		AE4AAB632D434764004CCAE7 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB622D434764004CCAE7 /* FirebaseFunctions */; };
+		AE4AAB652D434764004CCAE7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB642D434764004CCAE7 /* FirebaseStorage */; };
+		AE4AAB692D43C96A004CCAE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE4AAB682D43C96A004CCAE7 /* GoogleService-Info.plist */; };
+		AE4AAB6D2D449E85004CCAE7 /* TransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB6C2D449E85004CCAE7 /* TransportView.swift */; };
+		AE4AAB6F2D44A6CB004CCAE7 /* RussianRoulette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB6E2D44A6CB004CCAE7 /* RussianRoulette.swift */; };
+		AE4AAB712D44AD8D004CCAE7 /* ParticleFullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB702D44AD8D004CCAE7 /* ParticleFullView.swift */; };
+		AE4AAB732D45DFD8004CCAE7 /* AnimationPartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB722D45DFD8004CCAE7 /* AnimationPartView.swift */; };
+		AE4AAB772D47B27C004CCAE7 /* SwiftUIJoystick in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB762D47B27C004CCAE7 /* SwiftUIJoystick */; };
+		AE4AAB792D47B9AD004CCAE7 /* MyJoystickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB782D47B9AD004CCAE7 /* MyJoystickView.swift */; };
+		AE4AAB7B2D48EC8A004CCAE7 /* PWR.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AE4AAB7A2D48EC8A004CCAE7 /* PWR.usdz */; };
+		AE4AAB7D2D4F0E25004CCAE7 /* AIChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB7C2D4F0E25004CCAE7 /* AIChat.swift */; };
+		AE4AAB802D4F115C004CCAE7 /* DeepSeekManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB7F2D4F115C004CCAE7 /* DeepSeekManager.swift */; };
+		AE4AAB832D4F1CB7004CCAE7 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB822D4F1CB7004CCAE7 /* ChatMessage.swift */; };
+		AE4AAB852D4F1CED004CCAE7 /* ChatModel+DeepSeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB842D4F1CE3004CCAE7 /* ChatModel+DeepSeek.swift */; };
+		AE4AAB872D4F1D35004CCAE7 /* ChatModel+GPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB862D4F1D35004CCAE7 /* ChatModel+GPT.swift */; };
+		AE4AAB892D4F1D6E004CCAE7 /* ChatModel+Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB882D4F1D6E004CCAE7 /* ChatModel+Firebase.swift */; };
+		AE4AAB8C2D4F2047004CCAE7 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB8B2D4F2047004CCAE7 /* AboutView.swift */; };
 		AE57416B2917F98D0008B7E1 /* MonteCarloSimulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57416A2917F98D0008B7E1 /* MonteCarloSimulationApp.swift */; };
-		AE57416D2917F98D0008B7E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57416C2917F98D0008B7E1 /* ContentView.swift */; };
+		AE57416D2917F98D0008B7E1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57416C2917F98D0008B7E1 /* TabBarView.swift */; };
 		AE57416F2917F98F0008B7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE57416E2917F98F0008B7E1 /* Assets.xcassets */; };
 		AE5741722917F98F0008B7E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5741712917F98F0008B7E1 /* Preview Assets.xcassets */; };
 		AE5741792917F99C0008B7E1 /* fluxEstimationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5741782917F99C0008B7E1 /* fluxEstimationClass.swift */; };
 		AE811415291B56FA00751F5F /* InteractionEstimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811414291B56FA00751F5F /* InteractionEstimation.swift */; };
+		AE9AD476296B105F0054CBC4 /* CriticalityFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9AD475296B105F0054CBC4 /* CriticalityFunc.swift */; };
+		AEA0D8022D2D255A006BA30E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D8012D2D255A006BA30E /* HomeView.swift */; };
+		AEA0D8082D2D4967006BA30E /* RussianRouletteGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D8072D2D4967006BA30E /* RussianRouletteGun.swift */; };
+		AEA0D80C2D2E4BB3006BA30E /* ParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D80B2D2E4BB3006BA30E /* ParticleView.swift */; };
+		AEA0D8102D30AC0E006BA30E /* ReactorFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D80F2D30AC0E006BA30E /* ReactorFact.swift */; };
+		AEA0D8132D30B20A006BA30E /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = AEA0D8122D30B20A006BA30E /* FeedKit */; };
+		AEA0D8152D30B220006BA30E /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D8142D30B220006BA30E /* NewsView.swift */; };
+		AEA0D8182D30BA5E006BA30E /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = AEA0D8172D30BA5E006BA30E /* SwiftSoup */; };
+		AEA0D81A2D30EAC2006BA30E /* CustomRSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D8192D30EAC2006BA30E /* CustomRSSParser.swift */; };
+		AEA0D81E2D30F6F8006BA30E /* NuclearEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D81D2D30F6F8006BA30E /* NuclearEvent.swift */; };
 		AEB5B5DF292C758400472F24 /* Surge in Frameworks */ = {isa = PBXBuildFile; productRef = AEB5B5DE292C758400472F24 /* Surge */; };
 		AEB5B5E1292C75BD00472F24 /* ImpliciteCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5B5E0292C75BD00472F24 /* ImpliciteCapture.swift */; };
+		AED427052D31292400E5A65D /* Chernobyl_NPP.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AED427042D31292400E5A65D /* Chernobyl_NPP.usdz */; };
+		AED427072D31294500E5A65D /* NPP_poly.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AED427062D31294500E5A65D /* NPP_poly.usdz */; };
+		AED4270D2D31379100E5A65D /* NuclearPlant3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4270C2D31379100E5A65D /* NuclearPlant3DView.swift */; };
+		AED4270F2D313D3300E5A65D /* ParticleCollisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4270E2D313D3300E5A65D /* ParticleCollisionView.swift */; };
+		AED427122D3404D900E5A65D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED427112D3404D500E5A65D /* Extensions.swift */; };
+		AED427142D3404EC00E5A65D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED427132D3404E900E5A65D /* Helper.swift */; };
+		AED427162D340B9200E5A65D /* NuclearTimeline.json in Resources */ = {isa = PBXBuildFile; fileRef = AED427152D340B9200E5A65D /* NuclearTimeline.json */; };
 		AEFF59A1292DCC790088EDE2 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF59A0292DCC790088EDE2 /* ResultsView.swift */; };
-		AEFF59A3292E38340088EDE2 /* AllResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF59A2292E38340088EDE2 /* AllResults.swift */; };
+		AEFF59A3292E38340088EDE2 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF59A2292E38340088EDE2 /* MoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE15B24F29459C2300BF1ECC /* Criticality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Criticality.swift; sourceTree = "<group>"; };
 		AE15B25129459C6F00BF1ECC /* NeutronModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutronModel.swift; sourceTree = "<group>"; };
 		AE15B2532946186A00BF1ECC /* CriticalityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriticalityView.swift; sourceTree = "<group>"; };
-		AE2524A329532D46000B7A22 /* cleaning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleaning.swift; sourceTree = "<group>"; };
 		AE2524A5295418C5000B7A22 /* RegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionView.swift; sourceTree = "<group>"; };
 		AE2524A72955C657000B7A22 /* GeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryView.swift; sourceTree = "<group>"; };
 		AE2524A92955C6D9000B7A22 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		AE3878B12962D6010020D488 /* Visualization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visualization.swift; sourceTree = "<group>"; };
+		AE4AAB0D2D393495004CCAE7 /* ARExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARExtensions.swift; sourceTree = "<group>"; };
+		AE4AAB0F2D3934F9004CCAE7 /* VirtualObjectNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectNode.swift; sourceTree = "<group>"; };
+		AE4AAB112D39350A004CCAE7 /* SCNNodeExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExt.swift; sourceTree = "<group>"; };
+		AE4AAB132D393526004CCAE7 /* SceneKitUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitUtils.swift; sourceTree = "<group>"; };
+		AE4AAB182D3A258E004CCAE7 /* ButtonGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGridView.swift; sourceTree = "<group>"; };
+		AE4AAB1C2D3A4101004CCAE7 /* ZoomNavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomNavigationButton.swift; sourceTree = "<group>"; };
+		AE4AAB452D42272A004CCAE7 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = secretkey.xcconfig; sourceTree = "<group>"; };
+		AE4AAB492D422CD3004CCAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4AAB4D2D43458F004CCAE7 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		AE4AAB4F2D4345A8004CCAE7 /* CommunityChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityChatView.swift; sourceTree = "<group>"; };
+		AE4AAB682D43C96A004CCAE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE4AAB6C2D449E85004CCAE7 /* TransportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportView.swift; sourceTree = "<group>"; };
+		AE4AAB6E2D44A6CB004CCAE7 /* RussianRoulette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianRoulette.swift; sourceTree = "<group>"; };
+		AE4AAB702D44AD8D004CCAE7 /* ParticleFullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleFullView.swift; sourceTree = "<group>"; };
+		AE4AAB722D45DFD8004CCAE7 /* AnimationPartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPartView.swift; sourceTree = "<group>"; };
+		AE4AAB782D47B9AD004CCAE7 /* MyJoystickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJoystickView.swift; sourceTree = "<group>"; };
+		AE4AAB7A2D48EC8A004CCAE7 /* PWR.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = PWR.usdz; sourceTree = "<group>"; };
+		AE4AAB7C2D4F0E25004CCAE7 /* AIChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChat.swift; sourceTree = "<group>"; };
+		AE4AAB7F2D4F115C004CCAE7 /* DeepSeekManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepSeekManager.swift; sourceTree = "<group>"; };
+		AE4AAB822D4F1CB7004CCAE7 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		AE4AAB842D4F1CE3004CCAE7 /* ChatModel+DeepSeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatModel+DeepSeek.swift"; sourceTree = "<group>"; };
+		AE4AAB862D4F1D35004CCAE7 /* ChatModel+GPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatModel+GPT.swift"; sourceTree = "<group>"; };
+		AE4AAB882D4F1D6E004CCAE7 /* ChatModel+Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatModel+Firebase.swift"; sourceTree = "<group>"; };
+		AE4AAB8B2D4F2047004CCAE7 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		AE5741672917F98D0008B7E1 /* MonteCarloSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonteCarloSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE57416A2917F98D0008B7E1 /* MonteCarloSimulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloSimulationApp.swift; sourceTree = "<group>"; };
-		AE57416C2917F98D0008B7E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE57416C2917F98D0008B7E1 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		AE57416E2917F98F0008B7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5741712917F98F0008B7E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE5741782917F99C0008B7E1 /* fluxEstimationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fluxEstimationClass.swift; sourceTree = "<group>"; };
 		AE811414291B56FA00751F5F /* InteractionEstimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionEstimation.swift; sourceTree = "<group>"; };
+		AE9AD475296B105F0054CBC4 /* CriticalityFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriticalityFunc.swift; sourceTree = "<group>"; };
+		AEA0D8012D2D255A006BA30E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AEA0D8072D2D4967006BA30E /* RussianRouletteGun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianRouletteGun.swift; sourceTree = "<group>"; };
+		AEA0D80B2D2E4BB3006BA30E /* ParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleView.swift; sourceTree = "<group>"; };
+		AEA0D80F2D30AC0E006BA30E /* ReactorFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorFact.swift; sourceTree = "<group>"; };
+		AEA0D8142D30B220006BA30E /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		AEA0D8192D30EAC2006BA30E /* CustomRSSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRSSParser.swift; sourceTree = "<group>"; };
+		AEA0D81D2D30F6F8006BA30E /* NuclearEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuclearEvent.swift; sourceTree = "<group>"; };
 		AEB5B5E0292C75BD00472F24 /* ImpliciteCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpliciteCapture.swift; sourceTree = "<group>"; };
+		AED427042D31292400E5A65D /* Chernobyl_NPP.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chernobyl_NPP.usdz; sourceTree = "<group>"; };
+		AED427062D31294500E5A65D /* NPP_poly.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = NPP_poly.usdz; sourceTree = "<group>"; };
+		AED4270C2D31379100E5A65D /* NuclearPlant3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuclearPlant3DView.swift; sourceTree = "<group>"; };
+		AED4270E2D313D3300E5A65D /* ParticleCollisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleCollisionView.swift; sourceTree = "<group>"; };
+		AED427112D3404D500E5A65D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AED427132D3404E900E5A65D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AED427152D340B9200E5A65D /* NuclearTimeline.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NuclearTimeline.json; sourceTree = "<group>"; };
 		AEFF59A0292DCC790088EDE2 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
-		AEFF59A2292E38340088EDE2 /* AllResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllResults.swift; sourceTree = "<group>"; };
+		AEFF59A2292E38340088EDE2 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,16 +144,132 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEB5B5DF292C758400472F24 /* Surge in Frameworks */,
+				AEA0D8132D30B20A006BA30E /* FeedKit in Frameworks */,
+				AE4AAB442D42242F004CCAE7 /* OpenAI in Frameworks */,
+				AE4AAB632D434764004CCAE7 /* FirebaseFunctions in Frameworks */,
+				AE4AAB5F2D434764004CCAE7 /* FirebaseFirestore in Frameworks */,
+				AE4AAB552D434764004CCAE7 /* FirebaseAnalytics in Frameworks */,
+				AE4AAB612D434764004CCAE7 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				AE4AAB572D434764004CCAE7 /* FirebaseAppCheck in Frameworks */,
+				AE4AAB772D47B27C004CCAE7 /* SwiftUIJoystick in Frameworks */,
+				AE4AAB652D434764004CCAE7 /* FirebaseStorage in Frameworks */,
+				AE4AAB5D2D434764004CCAE7 /* FirebaseDynamicLinks in Frameworks */,
+				AE4AAB592D434764004CCAE7 /* FirebaseAuth in Frameworks */,
+				AE4AAB5B2D434764004CCAE7 /* FirebaseCore in Frameworks */,
+				AEA0D8182D30BA5E006BA30E /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE4AAB152D393554004CCAE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE4AAB0D2D393495004CCAE7 /* ARExtensions.swift */,
+				AE4AAB0F2D3934F9004CCAE7 /* VirtualObjectNode.swift */,
+				AE4AAB112D39350A004CCAE7 /* SCNNodeExt.swift */,
+				AE4AAB132D393526004CCAE7 /* SceneKitUtils.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		AE4AAB382D3F3149004CCAE7 /* ViewsSupport */ = {
+			isa = PBXGroup;
+			children = (
+				AED427112D3404D500E5A65D /* Extensions.swift */,
+				AED427132D3404E900E5A65D /* Helper.swift */,
+				AE4AAB1C2D3A4101004CCAE7 /* ZoomNavigationButton.swift */,
+				AE4AAB782D47B9AD004CCAE7 /* MyJoystickView.swift */,
+			);
+			path = ViewsSupport;
+			sourceTree = "<group>";
+		};
+		AE4AAB4C2D434587004CCAE7 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				AE4AAB4D2D43458F004CCAE7 /* ChatView.swift */,
+				AE4AAB4F2D4345A8004CCAE7 /* CommunityChatView.swift */,
+				AE4AAB7C2D4F0E25004CCAE7 /* AIChat.swift */,
+				AE4AAB8B2D4F2047004CCAE7 /* AboutView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		AE4AAB532D434764004CCAE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE4AAB6A2D449BE3004CCAE7 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				AEA0D8012D2D255A006BA30E /* HomeView.swift */,
+				AE4AAB722D45DFD8004CCAE7 /* AnimationPartView.swift */,
+				AE4AAB742D45DFFC004CCAE7 /* ParticleAnimation */,
+				AED427102D3161E800E5A65D /* AR3DNuclear */,
+				AEA0D81C2D30F6EB006BA30E /* NuclearEducation */,
+				AEA0D81B2D30EAF4006BA30E /* NuclearNews */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		AE4AAB6B2D449E55004CCAE7 /* Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				AE15B2532946186A00BF1ECC /* CriticalityView.swift */,
+				AE2524A92955C6D9000B7A22 /* ChartsView.swift */,
+				AE3878B12962D6010020D488 /* Visualization.swift */,
+				AE2524A72955C657000B7A22 /* GeometryView.swift */,
+				AE2524A5295418C5000B7A22 /* RegionView.swift */,
+				AE4AAB6C2D449E85004CCAE7 /* TransportView.swift */,
+				AE4AAB6E2D44A6CB004CCAE7 /* RussianRoulette.swift */,
+			);
+			path = Simulation;
+			sourceTree = "<group>";
+		};
+		AE4AAB742D45DFFC004CCAE7 /* ParticleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AEA0D80B2D2E4BB3006BA30E /* ParticleView.swift */,
+				AE4AAB702D44AD8D004CCAE7 /* ParticleFullView.swift */,
+			);
+			path = ParticleAnimation;
+			sourceTree = "<group>";
+		};
+		AE4AAB812D4F1C94004CCAE7 /* ChatModel */ = {
+			isa = PBXGroup;
+			children = (
+				AE4AAB822D4F1CB7004CCAE7 /* ChatMessage.swift */,
+				AE4AAB452D42272A004CCAE7 /* ChatViewModel.swift */,
+				AE4AAB862D4F1D35004CCAE7 /* ChatModel+GPT.swift */,
+				AE4AAB842D4F1CE3004CCAE7 /* ChatModel+DeepSeek.swift */,
+				AE4AAB882D4F1D6E004CCAE7 /* ChatModel+Firebase.swift */,
+				AE4AAB7F2D4F115C004CCAE7 /* DeepSeekManager.swift */,
+			);
+			path = ChatModel;
+			sourceTree = "<group>";
+		};
+		AE4AAB8A2D4F1DD9004CCAE7 /* SimulationModels */ = {
+			isa = PBXGroup;
+			children = (
+				AE5741782917F99C0008B7E1 /* fluxEstimationClass.swift */,
+				AE811414291B56FA00751F5F /* InteractionEstimation.swift */,
+				AEB5B5E0292C75BD00472F24 /* ImpliciteCapture.swift */,
+				AE15B24F29459C2300BF1ECC /* Criticality.swift */,
+				AE9AD475296B105F0054CBC4 /* CriticalityFunc.swift */,
+				AE15B25129459C6F00BF1ECC /* NeutronModel.swift */,
+			);
+			path = SimulationModels;
+			sourceTree = "<group>";
+		};
 		AE57415E2917F98D0008B7E1 = {
 			isa = PBXGroup;
 			children = (
 				AE5741692917F98D0008B7E1 /* MonteCarloSimulation */,
+				AE4AAB532D434764004CCAE7 /* Frameworks */,
 				AE5741682917F98D0008B7E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,9 +286,17 @@
 			isa = PBXGroup;
 			children = (
 				AE57416A2917F98D0008B7E1 /* MonteCarloSimulationApp.swift */,
+				AE57416C2917F98D0008B7E1 /* TabBarView.swift */,
 				AEFF59A5292F0FC60088EDE2 /* Views */,
+				AE4AAB382D3F3149004CCAE7 /* ViewsSupport */,
 				AEFF59A4292F0FB90088EDE2 /* Models */,
 				AE57416E2917F98F0008B7E1 /* Assets.xcassets */,
+				AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */,
+				AED427042D31292400E5A65D /* Chernobyl_NPP.usdz */,
+				AED427062D31294500E5A65D /* NPP_poly.usdz */,
+				AE4AAB7A2D48EC8A004CCAE7 /* PWR.usdz */,
+				AE4AAB492D422CD3004CCAE7 /* Info.plist */,
+				AE4AAB682D43C96A004CCAE7 /* GoogleService-Info.plist */,
 				AE5741702917F98F0008B7E1 /* Preview Content */,
 			);
 			path = MonteCarloSimulation;
@@ -96,15 +310,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AEA0D81B2D30EAF4006BA30E /* NuclearNews */ = {
+			isa = PBXGroup;
+			children = (
+				AEA0D8142D30B220006BA30E /* NewsView.swift */,
+				AEA0D8192D30EAC2006BA30E /* CustomRSSParser.swift */,
+			);
+			path = NuclearNews;
+			sourceTree = "<group>";
+		};
+		AEA0D81C2D30F6EB006BA30E /* NuclearEducation */ = {
+			isa = PBXGroup;
+			children = (
+				AEA0D80F2D30AC0E006BA30E /* ReactorFact.swift */,
+				AEA0D81D2D30F6F8006BA30E /* NuclearEvent.swift */,
+			);
+			path = NuclearEducation;
+			sourceTree = "<group>";
+		};
+		AED427102D3161E800E5A65D /* AR3DNuclear */ = {
+			isa = PBXGroup;
+			children = (
+				AED4270E2D313D3300E5A65D /* ParticleCollisionView.swift */,
+				AED4270C2D31379100E5A65D /* NuclearPlant3DView.swift */,
+				AE4AAB152D393554004CCAE7 /* Support Files */,
+			);
+			path = AR3DNuclear;
+			sourceTree = "<group>";
+		};
 		AEFF59A4292F0FB90088EDE2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AE5741782917F99C0008B7E1 /* fluxEstimationClass.swift */,
-				AE811414291B56FA00751F5F /* InteractionEstimation.swift */,
-				AEB5B5E0292C75BD00472F24 /* ImpliciteCapture.swift */,
-				AE15B24F29459C2300BF1ECC /* Criticality.swift */,
-				AE2524A329532D46000B7A22 /* cleaning.swift */,
-				AE15B25129459C6F00BF1ECC /* NeutronModel.swift */,
+				AE4AAB812D4F1C94004CCAE7 /* ChatModel */,
+				AE4AAB8A2D4F1DD9004CCAE7 /* SimulationModels */,
+				AED427152D340B9200E5A65D /* NuclearTimeline.json */,
+				AE4AAB182D3A258E004CCAE7 /* ButtonGridView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -112,14 +352,12 @@
 		AEFF59A5292F0FC60088EDE2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AE57416C2917F98D0008B7E1 /* ContentView.swift */,
-				AE15B2532946186A00BF1ECC /* CriticalityView.swift */,
-				AE2524A92955C6D9000B7A22 /* ChartsView.swift */,
-				AE3878B12962D6010020D488 /* Visualization.swift */,
-				AE2524A72955C657000B7A22 /* GeometryView.swift */,
-				AE2524A5295418C5000B7A22 /* RegionView.swift */,
+				AE4AAB6A2D449BE3004CCAE7 /* HomeViews */,
+				AE4AAB4C2D434587004CCAE7 /* Chat */,
+				AE4AAB6B2D449E55004CCAE7 /* Simulation */,
+				AEA0D8072D2D4967006BA30E /* RussianRouletteGun.swift */,
 				AEFF59A0292DCC790088EDE2 /* ResultsView.swift */,
-				AEFF59A2292E38340088EDE2 /* AllResults.swift */,
+				AEFF59A2292E38340088EDE2 /* MoreView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -142,6 +380,19 @@
 			name = MonteCarloSimulation;
 			packageProductDependencies = (
 				AEB5B5DE292C758400472F24 /* Surge */,
+				AEA0D8122D30B20A006BA30E /* FeedKit */,
+				AEA0D8172D30BA5E006BA30E /* SwiftSoup */,
+				AE4AAB432D42242F004CCAE7 /* OpenAI */,
+				AE4AAB542D434764004CCAE7 /* FirebaseAnalytics */,
+				AE4AAB562D434764004CCAE7 /* FirebaseAppCheck */,
+				AE4AAB582D434764004CCAE7 /* FirebaseAuth */,
+				AE4AAB5A2D434764004CCAE7 /* FirebaseCore */,
+				AE4AAB5C2D434764004CCAE7 /* FirebaseDynamicLinks */,
+				AE4AAB5E2D434764004CCAE7 /* FirebaseFirestore */,
+				AE4AAB602D434764004CCAE7 /* FirebaseFirestoreCombine-Community */,
+				AE4AAB622D434764004CCAE7 /* FirebaseFunctions */,
+				AE4AAB642D434764004CCAE7 /* FirebaseStorage */,
+				AE4AAB762D47B27C004CCAE7 /* SwiftUIJoystick */,
 			);
 			productName = MonteCarloSimulation;
 			productReference = AE5741672917F98D0008B7E1 /* MonteCarloSimulation.app */;
@@ -173,6 +424,11 @@
 			mainGroup = AE57415E2917F98D0008B7E1;
 			packageReferences = (
 				AEB5B5DD292C758400472F24 /* XCRemoteSwiftPackageReference "Surge" */,
+				AEA0D8112D30B20A006BA30E /* XCRemoteSwiftPackageReference "FeedKit" */,
+				AEA0D8162D30BA5E006BA30E /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				AE4AAB422D42242F004CCAE7 /* XCRemoteSwiftPackageReference "OpenAI" */,
+				AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AE4AAB752D47B27C004CCAE7 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */,
 			);
 			productRefGroup = AE5741682917F98D0008B7E1 /* Products */;
 			projectDirPath = "";
@@ -188,8 +444,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED427052D31292400E5A65D /* Chernobyl_NPP.usdz in Resources */,
+				AED427162D340B9200E5A65D /* NuclearTimeline.json in Resources */,
+				AE4AAB482D422BCA004CCAE7 /* secretkey.xcconfig in Resources */,
 				AE5741722917F98F0008B7E1 /* Preview Assets.xcassets in Resources */,
+				AED427072D31294500E5A65D /* NPP_poly.usdz in Resources */,
+				AE4AAB7B2D48EC8A004CCAE7 /* PWR.usdz in Resources */,
 				AE57416F2917F98F0008B7E1 /* Assets.xcassets in Resources */,
+				AE4AAB692D43C96A004CCAE7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,20 +462,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED4270D2D31379100E5A65D /* NuclearPlant3DView.swift in Sources */,
 				AE15B2542946186A00BF1ECC /* CriticalityView.swift in Sources */,
-				AE57416D2917F98D0008B7E1 /* ContentView.swift in Sources */,
+				AEA0D8152D30B220006BA30E /* NewsView.swift in Sources */,
+				AE57416D2917F98D0008B7E1 /* TabBarView.swift in Sources */,
+				AE4AAB462D42272F004CCAE7 /* ChatViewModel.swift in Sources */,
+				AE4AAB832D4F1CB7004CCAE7 /* ChatMessage.swift in Sources */,
+				AEA0D81A2D30EAC2006BA30E /* CustomRSSParser.swift in Sources */,
+				AE4AAB142D393526004CCAE7 /* SceneKitUtils.swift in Sources */,
+				AE4AAB0E2D393495004CCAE7 /* ARExtensions.swift in Sources */,
+				AED427142D3404EC00E5A65D /* Helper.swift in Sources */,
 				AEFF59A1292DCC790088EDE2 /* ResultsView.swift in Sources */,
 				AE5741792917F99C0008B7E1 /* fluxEstimationClass.swift in Sources */,
 				AE57416B2917F98D0008B7E1 /* MonteCarloSimulationApp.swift in Sources */,
+				AEA0D8022D2D255A006BA30E /* HomeView.swift in Sources */,
 				AEB5B5E1292C75BD00472F24 /* ImpliciteCapture.swift in Sources */,
 				AE2524A6295418C5000B7A22 /* RegionView.swift in Sources */,
+				AE4AAB8C2D4F2047004CCAE7 /* AboutView.swift in Sources */,
 				AE2524AA2955C6D9000B7A22 /* ChartsView.swift in Sources */,
+				AED4270F2D313D3300E5A65D /* ParticleCollisionView.swift in Sources */,
 				AE15B25029459C2300BF1ECC /* Criticality.swift in Sources */,
+				AE4AAB7D2D4F0E25004CCAE7 /* AIChat.swift in Sources */,
+				AE4AAB122D39350A004CCAE7 /* SCNNodeExt.swift in Sources */,
+				AEA0D8082D2D4967006BA30E /* RussianRouletteGun.swift in Sources */,
+				AE4AAB892D4F1D6E004CCAE7 /* ChatModel+Firebase.swift in Sources */,
+				AEA0D80C2D2E4BB3006BA30E /* ParticleView.swift in Sources */,
+				AE4AAB192D3A258E004CCAE7 /* ButtonGridView.swift in Sources */,
+				AE4AAB802D4F115C004CCAE7 /* DeepSeekManager.swift in Sources */,
+				AE4AAB1D2D3A4101004CCAE7 /* ZoomNavigationButton.swift in Sources */,
+				AE9AD476296B105F0054CBC4 /* CriticalityFunc.swift in Sources */,
+				AEA0D81E2D30F6F8006BA30E /* NuclearEvent.swift in Sources */,
+				AE4AAB102D3934F9004CCAE7 /* VirtualObjectNode.swift in Sources */,
+				AE4AAB872D4F1D35004CCAE7 /* ChatModel+GPT.swift in Sources */,
+				AE4AAB712D44AD8D004CCAE7 /* ParticleFullView.swift in Sources */,
+				AE4AAB6F2D44A6CB004CCAE7 /* RussianRoulette.swift in Sources */,
 				AE15B25229459C6F00BF1ECC /* NeutronModel.swift in Sources */,
-				AE2524A429532D46000B7A22 /* cleaning.swift in Sources */,
+				AEA0D8102D30AC0E006BA30E /* ReactorFact.swift in Sources */,
+				AE4AAB852D4F1CED004CCAE7 /* ChatModel+DeepSeek.swift in Sources */,
+				AE4AAB732D45DFD8004CCAE7 /* AnimationPartView.swift in Sources */,
+				AE4AAB4E2D43458F004CCAE7 /* ChatView.swift in Sources */,
+				AED427122D3404D900E5A65D /* Extensions.swift in Sources */,
+				AE4AAB502D4345A8004CCAE7 /* CommunityChatView.swift in Sources */,
 				AE811415291B56FA00751F5F /* InteractionEstimation.swift in Sources */,
-				AEFF59A3292E38340088EDE2 /* AllResults.swift in Sources */,
+				AEFF59A3292E38340088EDE2 /* MoreView.swift in Sources */,
 				AE2524A82955C657000B7A22 /* GeometryView.swift in Sources */,
+				AE4AAB6D2D449E85004CCAE7 /* TransportView.swift in Sources */,
+				AE4AAB792D47B9AD004CCAE7 /* MyJoystickView.swift in Sources */,
 				AE3878B22962D6020020D488 /* Visualization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +517,7 @@
 /* Begin XCBuildConfiguration section */
 		AE5741732917F98F0008B7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -283,6 +578,7 @@
 		};
 		AE5741742917F98F0008B7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -343,22 +639,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MonteCarloSimulation/Preview Content\"";
-				DEVELOPMENT_TEAM = H839SGFVQT;
+				DEVELOPMENT_TEAM = PT6T7NQXUY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonteCarloSimulation/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "using camera for Ar kit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.abusalha.MCSimulation.MonteCarloSimulation;
+				PRODUCT_BUNDLE_IDENTIFIER = me.abusalha.MCSimulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -374,22 +672,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MonteCarloSimulation/Preview Content\"";
-				DEVELOPMENT_TEAM = H839SGFVQT;
+				DEVELOPMENT_TEAM = PT6T7NQXUY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonteCarloSimulation/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "using camera for Ar kit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.abusalha.MCSimulation.MonteCarloSimulation;
+				PRODUCT_BUNDLE_IDENTIFIER = me.abusalha.MCSimulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -421,6 +721,46 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		AE4AAB422D42242F004CCAE7 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+		AE4AAB752D47B27C004CCAE7 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michael94ellis/SwiftUIJoystick";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		AEA0D8112D30B20A006BA30E /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.2;
+			};
+		};
+		AEA0D8162D30BA5E006BA30E /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.6;
+			};
+		};
 		AEB5B5DD292C758400472F24 /* XCRemoteSwiftPackageReference "Surge" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Jounce/Surge.git";
@@ -432,6 +772,71 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		AE4AAB432D42242F004CCAE7 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB422D42242F004CCAE7 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		AE4AAB542D434764004CCAE7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AE4AAB562D434764004CCAE7 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		AE4AAB582D434764004CCAE7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AE4AAB5A2D434764004CCAE7 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		AE4AAB5C2D434764004CCAE7 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		AE4AAB5E2D434764004CCAE7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AE4AAB602D434764004CCAE7 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		AE4AAB622D434764004CCAE7 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		AE4AAB642D434764004CCAE7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB522D434706004CCAE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		AE4AAB762D47B27C004CCAE7 /* SwiftUIJoystick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4AAB752D47B27C004CCAE7 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */;
+			productName = SwiftUIJoystick;
+		};
+		AEA0D8122D30B20A006BA30E /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEA0D8112D30B20A006BA30E /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+		AEA0D8172D30BA5E006BA30E /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEA0D8162D30BA5E006BA30E /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
 		AEB5B5DE292C758400472F24 /* Surge */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AEB5B5DD292C758400472F24 /* XCRemoteSwiftPackageReference "Surge" */;
