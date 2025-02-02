@@ -22,7 +22,6 @@
 		AE4AAB1D2D3A4101004CCAE7 /* ZoomNavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB1C2D3A4101004CCAE7 /* ZoomNavigationButton.swift */; };
 		AE4AAB442D42242F004CCAE7 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB432D42242F004CCAE7 /* OpenAI */; };
 		AE4AAB462D42272F004CCAE7 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB452D42272A004CCAE7 /* ChatViewModel.swift */; };
-		AE4AAB482D422BCA004CCAE7 /* secretkey.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */; };
 		AE4AAB4E2D43458F004CCAE7 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB4D2D43458F004CCAE7 /* ChatView.swift */; };
 		AE4AAB502D4345A8004CCAE7 /* CommunityChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4AAB4F2D4345A8004CCAE7 /* CommunityChatView.swift */; };
 		AE4AAB552D434764004CCAE7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AE4AAB542D434764004CCAE7 /* FirebaseAnalytics */; };
@@ -93,7 +92,6 @@
 		AE4AAB182D3A258E004CCAE7 /* ButtonGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGridView.swift; sourceTree = "<group>"; };
 		AE4AAB1C2D3A4101004CCAE7 /* ZoomNavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomNavigationButton.swift; sourceTree = "<group>"; };
 		AE4AAB452D42272A004CCAE7 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
-		AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = secretkey.xcconfig; sourceTree = "<group>"; };
 		AE4AAB492D422CD3004CCAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE4AAB4D2D43458F004CCAE7 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		AE4AAB4F2D4345A8004CCAE7 /* CommunityChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityChatView.swift; sourceTree = "<group>"; };
@@ -291,7 +289,6 @@
 				AE4AAB382D3F3149004CCAE7 /* ViewsSupport */,
 				AEFF59A4292F0FB90088EDE2 /* Models */,
 				AE57416E2917F98F0008B7E1 /* Assets.xcassets */,
-				AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */,
 				AED427042D31292400E5A65D /* Chernobyl_NPP.usdz */,
 				AED427062D31294500E5A65D /* NPP_poly.usdz */,
 				AE4AAB7A2D48EC8A004CCAE7 /* PWR.usdz */,
@@ -446,7 +443,6 @@
 			files = (
 				AED427052D31292400E5A65D /* Chernobyl_NPP.usdz in Resources */,
 				AED427162D340B9200E5A65D /* NuclearTimeline.json in Resources */,
-				AE4AAB482D422BCA004CCAE7 /* secretkey.xcconfig in Resources */,
 				AE5741722917F98F0008B7E1 /* Preview Assets.xcassets in Resources */,
 				AED427072D31294500E5A65D /* NPP_poly.usdz in Resources */,
 				AE4AAB7B2D48EC8A004CCAE7 /* PWR.usdz in Resources */,
@@ -517,7 +513,6 @@
 /* Begin XCBuildConfiguration section */
 		AE5741732917F98F0008B7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -578,7 +573,6 @@
 		};
 		AE5741742917F98F0008B7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE4AAB472D422BCA004CCAE7 /* secretkey.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
