@@ -1,0 +1,5 @@
+# Ignore secret key file
+MonteCarloSimulation/secretkey.xcconfig
+
+# Ignore large USDZ file
+MonteCarloSimulation/Chernobyl_NPP.usdz
